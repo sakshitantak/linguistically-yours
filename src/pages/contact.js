@@ -17,10 +17,10 @@ const ContactPage = ({
       <div className="two-grids -contact">
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
           <h1 className="post-title">Get in Touch</h1>
-          <p>Let me help you kick start your next project &rarr;</p>
+          <p>Hit me up &rarr;</p>
         </div>
         <div>
-          <form name = "contact" className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post" netlify>
+          <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
             <div>
               <label htmlFor="w3lName">Name</label>
               <input type="text" name="w3lName" id="w3lName"/>
